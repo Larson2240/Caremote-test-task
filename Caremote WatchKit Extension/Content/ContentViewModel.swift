@@ -7,6 +7,7 @@
 
 import Combine
 import CoreMotion
+import WatchKit
 
 final class ContentViewModel: ObservableObject {
     private let motionManager = CMMotionManager()
@@ -37,5 +38,13 @@ final class ContentViewModel: ObservableObject {
         })
         
         RunLoop.current.add(timer, forMode: .default)
+    }
+    
+    func configureBatteryMonitoring() {
+        WKInterfaceDevice.current().isBatteryMonitoringEnabled = true
+    }
+    
+    func batteryLevel() -> Int {
+        return Int(WKInterfaceDevice.current().batteryLevel * 100)
     }
 }

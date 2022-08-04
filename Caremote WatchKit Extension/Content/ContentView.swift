@@ -18,12 +18,15 @@ struct ContentView: View {
         }
         .onAppear {
             viewModel.configureMotionManager()
+            viewModel.configureBatteryMonitoring()
         }
     }
     
     private var content: some View {
-        VStack(spacing: 15) {
+        VStack(spacing: 16) {
             Spacer()
+            
+            batteryLevelStack
             
             xValueStack
             
@@ -32,6 +35,15 @@ struct ContentView: View {
             zValueStack
             
             Spacer()
+        }
+    }
+    
+    private var batteryLevelStack: some View {
+        HStack(spacing: 8) {
+            Text("Battery level: ")
+            
+            Text("\(viewModel.batteryLevel())%")
+                .font(.system(size: 17, weight: .bold))
         }
     }
     
