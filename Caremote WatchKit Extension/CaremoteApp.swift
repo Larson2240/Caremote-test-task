@@ -12,7 +12,7 @@ struct CaremoteApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                WatchContentView()
             }
         }
     }

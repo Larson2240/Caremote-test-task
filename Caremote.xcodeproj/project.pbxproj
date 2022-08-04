@@ -8,37 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		0A3DC8B3289BC63900DD56C5 /* CaremoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8B2289BC63900DD56C5 /* CaremoteApp.swift */; };
-		0A3DC8B5289BC63900DD56C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8B4289BC63900DD56C5 /* ContentView.swift */; };
+		0A3DC8B5289BC63900DD56C5 /* AppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8B4289BC63900DD56C5 /* AppContentView.swift */; };
 		0A3DC8B7289BC63900DD56C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8B6289BC63900DD56C5 /* Assets.xcassets */; };
 		0A3DC8BA289BC63900DD56C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8B9289BC63900DD56C5 /* Preview Assets.xcassets */; };
 		0A3DC8BE289BC63A00DD56C5 /* Caremote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A3DC8BD289BC63A00DD56C5 /* Caremote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A3DC8C3289BC63A00DD56C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8C2289BC63A00DD56C5 /* Assets.xcassets */; };
 		0A3DC8C9289BC63A00DD56C5 /* Caremote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A3DC8C8289BC63A00DD56C5 /* Caremote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A3DC8CE289BC63A00DD56C5 /* CaremoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8CD289BC63A00DD56C5 /* CaremoteApp.swift */; };
-		0A3DC8D0289BC63A00DD56C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8CF289BC63A00DD56C5 /* ContentView.swift */; };
-		0A3DC8D2289BC63A00DD56C5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8D1289BC63A00DD56C5 /* NotificationController.swift */; };
-		0A3DC8D4289BC63A00DD56C5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8D3289BC63A00DD56C5 /* NotificationView.swift */; };
-		0A3DC8D6289BC63A00DD56C5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8D5289BC63A00DD56C5 /* ComplicationController.swift */; };
+		0A3DC8D0289BC63A00DD56C5 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8CF289BC63A00DD56C5 /* WatchContentView.swift */; };
 		0A3DC8D8289BC63B00DD56C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8D7289BC63B00DD56C5 /* Assets.xcassets */; };
 		0A3DC8DB289BC63B00DD56C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8DA289BC63B00DD56C5 /* Preview Assets.xcassets */; };
-		0A7CF514289BEE0A007FD5AD /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF513289BEE0A007FD5AD /* Double + Extension.swift */; };
-		0A7CF517289BF28E007FD5AD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF516289BF28E007FD5AD /* ContentViewModel.swift */; };
+		0A7CF517289BF28E007FD5AD /* WatchContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF516289BF28E007FD5AD /* WatchContentViewModel.swift */; };
+		0A7CF51F289C480C007FD5AD /* WatchConnectivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF51E289C480C007FD5AD /* WatchConnectivityController.swift */; };
+		0A7CF520289C4934007FD5AD /* WatchConnectivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF51E289C480C007FD5AD /* WatchConnectivityController.swift */; };
+		0A9D1361289C5257000A55D6 /* DataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D1360289C5257000A55D6 /* DataStack.swift */; };
+		0A9D1362289C5354000A55D6 /* DataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D1360289C5257000A55D6 /* DataStack.swift */; };
+		0A9D1365289C53CF000A55D6 /* AppContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D1364289C53CF000A55D6 /* AppContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A3DC8BF289BC63A00DD56C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0A3DC8A7289BC63900DD56C5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0A3DC8BC289BC63A00DD56C5;
-			remoteInfo = "Caremote WatchKit App";
-		};
 		0A3DC8CA289BC63A00DD56C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0A3DC8A7289BC63900DD56C5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0A3DC8C7289BC63A00DD56C5;
 			remoteInfo = "Caremote WatchKit Extension";
+		};
+		0A9D135B289C5153000A55D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3DC8A7289BC63900DD56C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3DC8BC289BC63A00DD56C5;
+			remoteInfo = "Caremote WatchKit App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -70,23 +71,21 @@
 /* Begin PBXFileReference section */
 		0A3DC8AF289BC63900DD56C5 /* Caremote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caremote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3DC8B2289BC63900DD56C5 /* CaremoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaremoteApp.swift; sourceTree = "<group>"; };
-		0A3DC8B4289BC63900DD56C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A3DC8B4289BC63900DD56C5 /* AppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentView.swift; sourceTree = "<group>"; };
 		0A3DC8B6289BC63900DD56C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3DC8B9289BC63900DD56C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A3DC8BD289BC63A00DD56C5 /* Caremote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caremote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3DC8C2289BC63A00DD56C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3DC8C8289BC63A00DD56C5 /* Caremote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Caremote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3DC8CD289BC63A00DD56C5 /* CaremoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaremoteApp.swift; sourceTree = "<group>"; };
-		0A3DC8CF289BC63A00DD56C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0A3DC8D1289BC63A00DD56C5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		0A3DC8D3289BC63A00DD56C5 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		0A3DC8D5289BC63A00DD56C5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0A3DC8CF289BC63A00DD56C5 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
 		0A3DC8D7289BC63B00DD56C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3DC8DA289BC63B00DD56C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A3DC8DC289BC63B00DD56C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A3DC8DD289BC63B00DD56C5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		0A7CF513289BEE0A007FD5AD /* Double + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
-		0A7CF516289BF28E007FD5AD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		0A7CF516289BF28E007FD5AD /* WatchContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentViewModel.swift; sourceTree = "<group>"; };
+		0A7CF51E289C480C007FD5AD /* WatchConnectivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityController.swift; sourceTree = "<group>"; };
+		0A9D1360289C5257000A55D6 /* DataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStack.swift; sourceTree = "<group>"; };
+		0A9D1364289C53CF000A55D6 /* AppContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +109,13 @@
 		0A3DC8A6289BC63900DD56C5 = {
 			isa = PBXGroup;
 			children = (
-				0A7CF512289BEDFD007FD5AD /* Extensions */,
+				0A9D135D289C51EC000A55D6 /* Helpers */,
+				0A7CF51D289C47FD007FD5AD /* Controllers */,
 				0A3DC8B1289BC63900DD56C5 /* Caremote */,
 				0A3DC8C1289BC63A00DD56C5 /* Caremote WatchKit App */,
 				0A3DC8CC289BC63A00DD56C5 /* Caremote WatchKit Extension */,
 				0A3DC8B0289BC63900DD56C5 /* Products */,
+				0A9D135A289C5153000A55D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3DC8B2289BC63900DD56C5 /* CaremoteApp.swift */,
-				0A3DC8B4289BC63900DD56C5 /* ContentView.swift */,
+				0A9D1363289C53BE000A55D6 /* Content */,
 				0A3DC8B6289BC63900DD56C5 /* Assets.xcassets */,
 				0A3DC8B8289BC63900DD56C5 /* Preview Content */,
 			);
@@ -160,12 +161,8 @@
 			children = (
 				0A3DC8CD289BC63A00DD56C5 /* CaremoteApp.swift */,
 				0A7CF515289BF281007FD5AD /* Content */,
-				0A3DC8D1289BC63A00DD56C5 /* NotificationController.swift */,
-				0A3DC8D3289BC63A00DD56C5 /* NotificationView.swift */,
-				0A3DC8D5289BC63A00DD56C5 /* ComplicationController.swift */,
 				0A3DC8D7289BC63B00DD56C5 /* Assets.xcassets */,
 				0A3DC8DC289BC63B00DD56C5 /* Info.plist */,
-				0A3DC8DD289BC63B00DD56C5 /* PushNotificationPayload.apns */,
 				0A3DC8D9289BC63B00DD56C5 /* Preview Content */,
 			);
 			path = "Caremote WatchKit Extension";
@@ -179,19 +176,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0A7CF512289BEDFD007FD5AD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				0A7CF513289BEE0A007FD5AD /* Double + Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = SOURCE_ROOT;
-		};
 		0A7CF515289BF281007FD5AD /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				0A3DC8CF289BC63A00DD56C5 /* ContentView.swift */,
-				0A7CF516289BF28E007FD5AD /* ContentViewModel.swift */,
+				0A3DC8CF289BC63A00DD56C5 /* WatchContentView.swift */,
+				0A7CF516289BF28E007FD5AD /* WatchContentViewModel.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		0A7CF51D289C47FD007FD5AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CF51E289C480C007FD5AD /* WatchConnectivityController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A9D135A289C5153000A55D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9D135D289C51EC000A55D6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A9D1360289C5257000A55D6 /* DataStack.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A9D1363289C53BE000A55D6 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DC8B4289BC63900DD56C5 /* AppContentView.swift */,
+				0A9D1364289C53CF000A55D6 /* AppContentViewModel.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -211,7 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0A3DC8C0289BC63A00DD56C5 /* PBXTargetDependency */,
+				0A9D135C289C5153000A55D6 /* PBXTargetDependency */,
 			);
 			name = Caremote;
 			productName = Caremote;
@@ -327,9 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3DC8B5289BC63900DD56C5 /* ContentView.swift in Sources */,
-				0A7CF514289BEE0A007FD5AD /* Double + Extension.swift in Sources */,
+				0A9D1361289C5257000A55D6 /* DataStack.swift in Sources */,
+				0A3DC8B5289BC63900DD56C5 /* AppContentView.swift in Sources */,
 				0A3DC8B3289BC63900DD56C5 /* CaremoteApp.swift in Sources */,
+				0A9D1365289C53CF000A55D6 /* AppContentViewModel.swift in Sources */,
+				0A7CF51F289C480C007FD5AD /* WatchConnectivityController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,27 +360,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3DC8D2289BC63A00DD56C5 /* NotificationController.swift in Sources */,
-				0A3DC8D0289BC63A00DD56C5 /* ContentView.swift in Sources */,
-				0A7CF517289BF28E007FD5AD /* ContentViewModel.swift in Sources */,
-				0A3DC8D6289BC63A00DD56C5 /* ComplicationController.swift in Sources */,
+				0A3DC8D0289BC63A00DD56C5 /* WatchContentView.swift in Sources */,
+				0A9D1362289C5354000A55D6 /* DataStack.swift in Sources */,
+				0A7CF520289C4934007FD5AD /* WatchConnectivityController.swift in Sources */,
+				0A7CF517289BF28E007FD5AD /* WatchContentViewModel.swift in Sources */,
 				0A3DC8CE289BC63A00DD56C5 /* CaremoteApp.swift in Sources */,
-				0A3DC8D4289BC63A00DD56C5 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A3DC8C0289BC63A00DD56C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0A3DC8BC289BC63A00DD56C5 /* Caremote WatchKit App */;
-			targetProxy = 0A3DC8BF289BC63A00DD56C5 /* PBXContainerItemProxy */;
-		};
 		0A3DC8CB289BC63A00DD56C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0A3DC8C7289BC63A00DD56C5 /* Caremote WatchKit Extension */;
 			targetProxy = 0A3DC8CA289BC63A00DD56C5 /* PBXContainerItemProxy */;
+		};
+		0A9D135C289C5153000A55D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3DC8BC289BC63A00DD56C5 /* Caremote WatchKit App */;
+			targetProxy = 0A9D135B289C5153000A55D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
