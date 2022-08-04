@@ -21,6 +21,8 @@
 		0A3DC8D6289BC63A00DD56C5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DC8D5289BC63A00DD56C5 /* ComplicationController.swift */; };
 		0A3DC8D8289BC63B00DD56C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8D7289BC63B00DD56C5 /* Assets.xcassets */; };
 		0A3DC8DB289BC63B00DD56C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DC8DA289BC63B00DD56C5 /* Preview Assets.xcassets */; };
+		0A7CF514289BEE0A007FD5AD /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF513289BEE0A007FD5AD /* Double + Extension.swift */; };
+		0A7CF517289BF28E007FD5AD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7CF516289BF28E007FD5AD /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		0A3DC8DA289BC63B00DD56C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A3DC8DC289BC63B00DD56C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A3DC8DD289BC63B00DD56C5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0A7CF513289BEE0A007FD5AD /* Double + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
+		0A7CF516289BF28E007FD5AD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		0A3DC8A6289BC63900DD56C5 = {
 			isa = PBXGroup;
 			children = (
+				0A7CF512289BEDFD007FD5AD /* Extensions */,
 				0A3DC8B1289BC63900DD56C5 /* Caremote */,
 				0A3DC8C1289BC63A00DD56C5 /* Caremote WatchKit App */,
 				0A3DC8CC289BC63A00DD56C5 /* Caremote WatchKit Extension */,
@@ -154,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3DC8CD289BC63A00DD56C5 /* CaremoteApp.swift */,
-				0A3DC8CF289BC63A00DD56C5 /* ContentView.swift */,
+				0A7CF515289BF281007FD5AD /* Content */,
 				0A3DC8D1289BC63A00DD56C5 /* NotificationController.swift */,
 				0A3DC8D3289BC63A00DD56C5 /* NotificationView.swift */,
 				0A3DC8D5289BC63A00DD56C5 /* ComplicationController.swift */,
@@ -172,6 +177,23 @@
 				0A3DC8DA289BC63B00DD56C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A7CF512289BEDFD007FD5AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A7CF513289BEE0A007FD5AD /* Double + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A7CF515289BF281007FD5AD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DC8CF289BC63A00DD56C5 /* ContentView.swift */,
+				0A7CF516289BF28E007FD5AD /* ContentViewModel.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3DC8B5289BC63900DD56C5 /* ContentView.swift in Sources */,
+				0A7CF514289BEE0A007FD5AD /* Double + Extension.swift in Sources */,
 				0A3DC8B3289BC63900DD56C5 /* CaremoteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +339,7 @@
 			files = (
 				0A3DC8D2289BC63A00DD56C5 /* NotificationController.swift in Sources */,
 				0A3DC8D0289BC63A00DD56C5 /* ContentView.swift in Sources */,
+				0A7CF517289BF28E007FD5AD /* ContentViewModel.swift in Sources */,
 				0A3DC8D6289BC63A00DD56C5 /* ComplicationController.swift in Sources */,
 				0A3DC8CE289BC63A00DD56C5 /* CaremoteApp.swift in Sources */,
 				0A3DC8D4289BC63A00DD56C5 /* NotificationView.swift in Sources */,

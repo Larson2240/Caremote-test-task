@@ -15,7 +15,5 @@ struct CaremoteApp: App {
                 ContentView()
             }
         }
-
-        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
     }
 }
